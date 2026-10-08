@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Matplotlib / local plotting cache
+.mplconfig/
+
+# Local machine / VM configuration
+config/utm_vm.env
+
+# Quarto / notebook build artifacts
+.quarto/
+_site/
+*.nb.html
+
+# Spark / Hadoop local runtime artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Generated project outputs
+outputs/processed/
+outputs/tables/
+outputs/figures/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
